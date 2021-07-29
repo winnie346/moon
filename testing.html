@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video src="" id="vid" autoplay></video> tf
+    <script>
+        navigator.mediaDevices.getUserMedia({
+        video:{
+            width:200,
+            height:100,
+        }
+        })
+        .then(stream=>{
+            document.getElementById("vid").srcOject = stream;
+        })
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PAKAKUMI: Coming Back Soon</title>
+    <meta name="description" content="The best online social multiplayer game in Kenya. It's fun and thrilling. It can also make you millions."/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="util.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!--===============================================================================================-->
+    <style>
+        .s2-txt1 {
+            color: #ffc107;
+        }
+        .overlay1 {
+            background-image:  url('bg01.jpg');
+        }
+        .overlay1::before {
+            background-color: rgba(0,0,0,0.9);
+        }
+    </style>
+</head>
+<body>
+<div class="size1 overlay1">
+    <!--  -->
+    <div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
+        <h3 class="l1-txt1 txt-center p-b-25">
+            Coming Back Soon
+        </h3>
+
+        <p class="m2-txt1 txt-center p-b-48">
+            Our platform is under maintenance, we will be back soon!
+        </p>
+
+        <div class="flex-w flex-c-m cd100 p-b-33">
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 days">7</span>
+                <span class="s2-txt1">Days</span>
+            </div>
+
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 hours">2</span>
+                <span class="s2-txt1">Hours</span>
+            </div>
+
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 minutes">30</span>
+                <span class="s2-txt1">Minutes</span>
+            </div>
+
+            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+                <span class="l2-txt1 p-b-9 seconds">39</span>
+                <span class="s2-txt1">Seconds</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--===============================================================================================-->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="countdowntime.js"></script>
+<script>
+    $('.cd100').countdown100({
+        endtimeYear: 2021,
+        endtimeMonth: 7,
+        endtimeDate: 1
+    });
+</script>
+</body>
+</html>
